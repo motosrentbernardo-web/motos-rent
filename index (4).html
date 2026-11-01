@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Motos.Rent | Alquiler de Motocicletas de Alta Cilindrada en El Salvador</title>
+<meta name="description" content="Alquiler de motocicletas BMW, Kawasaki, Yamaha y Honda en El Salvador. BMW R 1250 GS Adventure, F 850 GS, G 310 GS y más. Entrega en tu hotel o casa. Motorcycle rentals in El Salvador.">
+<meta name="keywords" content="alquiler de motos El Salvador, renta de motocicletas, BMW R 1250 GS alquiler, motorcycle rental El Salvador, tours en moto El Salvador">
+<link rel="canonical" href="https://www.motos.rent/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.motos.rent/">
+<meta property="og:title" content="Motos.Rent | Alquiler de Motocicletas en El Salvador">
+<meta property="og:description" content="Vive El Salvador sobre dos ruedas: BMW GS, Kawasaki Z1000, Yamaha MT-09 y más. Reserva en línea.">
+<meta property="og:image" content="https://commons.wikimedia.org/wiki/Special:FilePath/BMW%20R%201250%20GS%20(1).jpg?width=1200">
+<meta name="theme-color" content="#0b0b0d">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏍️</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Motos.Rent — Alquiler de Motocicletas El Salvador",
+  "url": "https://www.motos.rent/",
+  "telephone": "+503 7578-6508",
+  "address": {"@type": "PostalAddress","streetAddress": "Torre Millenium, 4to Nivel","addressLocality": "San Salvador","addressCountry": "SV"},
+  "priceRange": "$78 - $192 por día",
+  "description": "Alquiler de motocicletas doble propósito y de alta cilindrada para turismo en El Salvador."
+}
+</script>
+<style>
+:root{
+  --bg:#0b0b0d; --bg2:#121216; --card:#17171c; --line:#26262d;
+  --txt:#f3f3f5; --muted:#a3a3ad; --accent:#ff6a13; --accent2:#ffb100;
+  --ok:#2bd47d; --radius:18px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Inter,system-ui,sans-serif;background:var(--bg);color:var(--txt);line-height:1.6;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit}
+h1,h2,h3,.display{font-family:Oswald,Impact,sans-serif;text-transform:uppercase;letter-spacing:.02em;line-height:1.05}
+.wrap{max-width:1200px;margin:0 auto;padding:0 22px}
+.eyebrow{color:var(--accent);font-weight:700;font-size:.8rem;letter-spacing:.22em;text-transform:uppercase}
+section{padding:96px 0}
+.sec-head{max-width:720px;margin-bottom:48px}
+.sec-head h2{font-size:clamp(2rem,4.5vw,3.2rem);margin:.35em 0 .3em}
+.sec-head p{color:var(--muted);font-size:1.05rem}
+.btn{display:inline-flex;align-items:center;gap:.55em;padding:15px 26px;border-radius:999px;font-weight:700;text-decoration:none;border:0;cursor:pointer;font-size:1rem;transition:transform .15s,box-shadow .2s,background .2s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#111;box-shadow:0 10px 30px -8px rgba(255,106,19,.6)}
+.btn-ghost{background:rgba(255,255,255,.08);color:#fff;border:1px solid rgba(255,255,255,.18);backdrop-filter:blur(6px)}
+.btn-wa{background:#25d366;color:#062b14}
+.btn svg{width:20px;height:20px}
+
+/* NAV */
+nav{position:fixed;inset:0 0 auto 0;z-index:50;transition:background .3s,border-color .3s;border-bottom:1px solid transparent}
+nav.scrolled{background:rgba(11,11,13,.86);backdrop-filter:blur(12px);border-color:var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:72px}
+.logo{font-family:Oswald;font-size:1.55rem;font-weight:700;text-decoration:none;letter-spacing:.03em}
+.logo span{color:var(--accent)}
+.nav-links{display:flex;gap:28px;align-items:center}
+.nav-links a{text-decoration:none;font-weight:500;font-size:.95rem;color:#ddd}
+.nav-links a:hover{color:var(--accent)}
+.nav-links .btn{padding:10px 20px;font-size:.9rem}
+.burger{display:none;background:none;border:0;color:#fff;font-size:1.8rem;cursor:pointer}
+
+/* HERO */
+.hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;padding:140px 0 80px;overflow:hidden}
+.hero-bg{position:absolute;inset:0;background:#111 center/cover no-repeat;transform:scale(1.06);animation:zoom 18s ease-out forwards}
+@keyframes zoom{to{transform:scale(1)}}
+.hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(11,11,13,.35) 0%,rgba(11,11,13,.55) 45%,var(--bg) 100%),linear-gradient(90deg,rgba(11,11,13,.85),transparent 70%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero h1{font-size:clamp(2.8rem,8vw,6.2rem);max-width:900px;margin:.2em 0}
+.hero h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p.lead{font-size:clamp(1.05rem,2vw,1.3rem);color:#d6d6dc;max-width:620px;margin-bottom:34px}
+.hero .ctas{display:flex;flex-wrap:wrap;gap:14px}
+.hero .en{color:var(--muted);font-size:.9rem;margin-top:18px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;margin-top:64px}
+.stat{background:rgba(18,18,22,.85);padding:22px;backdrop-filter:blur(8px)}
+.stat b{display:block;font-family:Oswald;font-size:2rem;color:var(--accent)}
+.stat span{color:var(--muted);font-size:.9rem}
+
+/* FLEET */
+.filters{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:34px}
+.filters button{background:var(--card);border:1px solid var(--line);color:#ddd;padding:10px 18px;border-radius:999px;cursor:pointer;font-weight:600;font-size:.9rem}
+.filters button.on{background:var(--accent);border-color:var(--accent);color:#111}
+.fleet{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:26px}
+.moto{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column;transition:transform .25s,border-color .25s,box-shadow .25s}
+.moto:hover{transform:translateY(-6px);border-color:rgba(255,106,19,.5);box-shadow:0 24px 50px -24px rgba(255,106,19,.45)}
+.moto .ph{position:relative;aspect-ratio:16/10;background:#1d1d23;overflow:hidden}
+.moto .ph img{width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.moto:hover .ph img{transform:scale(1.06)}
+.tag{position:absolute;top:14px;left:14px;background:rgba(0,0,0,.7);backdrop-filter:blur(6px);padding:6px 12px;border-radius:999px;font-size:.75rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.tag.hot{background:var(--accent);color:#111}
+.units{position:absolute;top:14px;right:14px;background:rgba(0,0,0,.7);padding:6px 12px;border-radius:999px;font-size:.75rem;font-weight:600}
+.moto .body{padding:24px;display:flex;flex-direction:column;flex:1}
+.moto h3{font-size:1.65rem}
+.moto .origin{color:var(--muted);font-size:.85rem;margin:2px 0 12px}
+.moto p.desc{color:#c9c9d1;font-size:.95rem;flex:1}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0}
+.chips span{background:#202027;border:1px solid var(--line);padding:5px 11px;border-radius:8px;font-size:.78rem;color:#ddd}
+.price-row{display:flex;align-items:flex-end;justify-content:space-between;border-top:1px solid var(--line);padding-top:18px;margin-top:6px;gap:12px}
+.price b{font-family:Oswald;font-size:2.3rem;color:#fff}
+.price small{color:var(--muted);font-size:.85rem}
+.dep{font-size:.8rem;color:var(--accent2);font-weight:600}
+.moto .btn{padding:11px 18px;font-size:.88rem}
+
+/* PRICING */
+.pricing{background:var(--bg2)}
+.tiers{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.tier{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:30px 24px;position:relative}
+.tier.feat{border-color:var(--accent);background:linear-gradient(180deg,rgba(255,106,19,.12),var(--card) 60%)}
+.tier .ribbon{position:absolute;top:-12px;right:20px;background:var(--accent);color:#111;font-size:.72rem;font-weight:800;padding:5px 12px;border-radius:999px;letter-spacing:.08em}
+.tier h3{font-size:1.25rem;color:var(--muted)}
+.tier .amt{font-family:Oswald;font-size:3.2rem;margin:10px 0 0}
+.tier .amt small{font-size:1rem;color:var(--muted);font-family:Inter}
+.tier ul{list-style:none;margin:18px 0 0;display:grid;gap:9px}
+.tier li{font-size:.92rem;color:#d4d4da;padding-left:22px;position:relative}
+.tier li::before{content:"✓";position:absolute;left:0;color:var(--ok);font-weight:800}
+.tier .depo{margin-top:18px;padding:12px;border-radius:12px;background:#1f1f26;font-size:.85rem}
+.tier .depo b{color:var(--accent2)}
+.note{color:var(--muted);font-size:.9rem;margin-top:26px;text-align:center}
+
+/* BOOKING */
+.booking-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:30px;align-items:start}
+.calc{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:32px}
+.calc label{display:block;font-weight:600;font-size:.9rem;margin:18px 0 8px;color:#ddd}
+.calc select,.calc input{width:100%;background:#0f0f13;border:1px solid var(--line);color:#fff;padding:14px 16px;border-radius:12px;font-size:1rem;font-family:inherit}
+.calc select:focus,.calc input:focus{outline:2px solid var(--accent);border-color:transparent}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.check{display:flex;gap:10px;align-items:center;margin-top:16px;font-size:.92rem;color:#ccc;cursor:pointer}
+.check input{width:20px;height:20px;accent-color:var(--accent)}
+.summary{margin-top:26px;border-radius:16px;background:#0f0f13;border:1px dashed #3a3a44;padding:20px}
+.summary .ln{display:flex;justify-content:space-between;padding:6px 0;font-size:.95rem;color:#cfcfd6}
+.summary .tot{border-top:1px solid var(--line);margin-top:8px;padding-top:12px;font-weight:700;color:#fff;font-size:1.15rem}
+.summary .tot b{font-family:Oswald;font-size:1.8rem;color:var(--accent)}
+.calc .actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:22px}
+.steps{display:grid;gap:16px}
+.step{display:flex;gap:18px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px}
+.step .n{flex:0 0 46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#111;font-family:Oswald;font-size:1.3rem;display:grid;place-items:center;font-weight:700}
+.step h4{font-size:1.05rem;margin-bottom:3px}
+.step p{color:var(--muted);font-size:.92rem}
+.n1co{display:flex;gap:14px;align-items:center;margin-top:18px;padding:18px;border-radius:16px;background:linear-gradient(135deg,rgba(255,106,19,.14),rgba(255,177,0,.06));border:1px solid rgba(255,106,19,.35);font-size:.9rem;color:#ddd}
+.n1co .ic{font-size:1.8rem}
+.advance{display:flex;gap:14px;align-items:center;margin-top:20px;padding:16px 20px;border-radius:14px;background:rgba(255,177,0,.1);border:1px solid rgba(255,177,0,.4);color:#e8e8ec;font-size:.95rem}
+.advance span{font-size:1.6rem}
+.advance b{color:var(--accent2)}
+
+/* REQS */
+.reqs{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.req{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px}
+.req .ic{font-size:2rem;margin-bottom:12px}
+.req h3{font-size:1.3rem;margin-bottom:10px}
+.req ul{list-style:none;display:grid;gap:8px}
+.req li{color:#cfcfd6;font-size:.95rem;padding-left:20px;position:relative}
+.req li::before{content:"";position:absolute;left:0;top:.62em;width:8px;height:8px;border-radius:50%;background:var(--accent)}
+
+/* EXPERIENCES */
+.exp{background:radial-gradient(1200px 500px at 80% 0%,rgba(255,106,19,.12),transparent),var(--bg2)}
+.videos{display:grid;grid-template-columns:repeat(3,1fr);gap:26px}
+.vid{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;display:flex;flex-direction:column}
+.vid .frame{background:#000;display:flex;justify-content:center;min-height:560px}
+.vid .frame iframe{width:100%;max-width:325px;height:575px;border:0}
+.vid .txt{padding:22px}
+.vid .txt .eyebrow{font-size:.7rem}
+.vid h3{font-size:1.35rem;margin:6px 0 8px}
+.vid p{color:#c4c4cc;font-size:.93rem}
+.vid.wide{grid-column:span 3;display:grid;grid-template-columns:auto 1fr;align-items:center}
+.vid.wide .frame{padding:0 30px}
+.vid.wide .txt{padding:40px}
+.vid.wide h3{font-size:2.1rem}
+.vid.wide p{font-size:1.05rem}
+.badge360{display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:#111;font-weight:800;padding:6px 14px;border-radius:999px;font-size:.8rem;margin-bottom:10px}
+
+/* GROUPS */
+.groups{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+.groups .img{border-radius:22px;overflow:hidden;aspect-ratio:4/3;background:#1d1d23}
+.groups .img img{width:100%;height:100%;object-fit:cover}
+.groups ul{list-style:none;display:grid;gap:14px;margin:24px 0 30px}
+.groups li{display:flex;gap:12px;color:#d4d4da}
+.groups li b{color:var(--accent)}
+
+/* FAQ */
+.faq{max-width:860px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:12px;padding:0 22px}
+summary{cursor:pointer;padding:20px 0;font-weight:600;font-size:1.02rem;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::after{content:"+";color:var(--accent);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:"–"}
+details p{color:var(--muted);padding-bottom:20px}
+
+/* CTA + FOOTER */
+.cta-band{text-align:center;padding:90px 22px;background:linear-gradient(135deg,#ff6a13,#ffb100);color:#111}
+.cta-band h2{font-size:clamp(2rem,5vw,3.6rem)}
+.cta-band p{font-size:1.1rem;margin:12px auto 28px;max-width:600px}
+.cta-band .btn-dark{background:#111;color:#fff}
+footer{padding:60px 0 30px;border-top:1px solid var(--line);color:var(--muted);font-size:.9rem}
+.foot{display:grid;grid-template-columns:2fr 1fr 1fr;gap:30px}
+footer h4{color:#fff;font-family:Oswald;text-transform:uppercase;margin-bottom:12px;letter-spacing:.05em}
+footer a{text-decoration:none}
+footer a:hover{color:var(--accent)}
+footer ul{list-style:none;display:grid;gap:6px}
+.credits{margin-top:40px;padding-top:20px;border-top:1px solid var(--line);font-size:.75rem;color:#6f6f78}
+.credits a{text-decoration:underline}
+
+.wa-float{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 10px 30px -6px rgba(37,211,102,.7);animation:pulse 2.4s infinite}
+.wa-float svg{width:32px;height:32px;fill:#fff}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(37,211,102,.55)}50%{box-shadow:0 0 0 14px rgba(37,211,102,0)}}
+
+.reveal{opacity:0;transform:translateY(28px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+
+@media (max-width:1000px){
+  .tiers{grid-template-columns:repeat(2,1fr)}
+  .videos{grid-template-columns:1fr 1fr}
+  .vid.wide{grid-column:span 2;grid-template-columns:1fr}
+  .vid.wide .frame{padding:0}
+  .booking-grid,.groups{grid-template-columns:1fr}
+  .reqs{grid-template-columns:1fr}
+  .stats{grid-template-columns:repeat(2,1fr)}
+}
+@media (max-width:760px){
+  section{padding:72px 0}
+  .nav-links{position:fixed;top:72px;left:0;right:0;flex-direction:column;background:rgba(11,11,13,.97);padding:24px;gap:18px;display:none;border-bottom:1px solid var(--line)}
+  .nav-links.open{display:flex}
+  .burger{display:block}
+  .tiers,.videos{grid-template-columns:1fr}
+  .vid.wide{grid-column:span 1}
+  .fleet{grid-template-columns:1fr}
+  .foot{grid-template-columns:1fr}
+  .two{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<nav id="nav">
+  <div class="wrap nav-in">
+    <a href="#inicio" class="logo">MOTOS<span>.</span>RENT</a>
+    <button class="burger" id="burger" aria-label="Menú">☰</button>
+    <div class="nav-links" id="links">
+      <a href="#flota">Flota</a>
+      <a href="#precios">Precios</a>
+      <a href="#experiencias">Experiencias</a>
+      <a href="#grupos">Grupos</a>
+      <a href="#requisitos">Requisitos</a>
+      <a href="#faq">FAQ</a>
+      <a href="#reservar" class="btn btn-primary">Reservar</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="inicio">
+  <div class="hero-bg" id="heroBg"></div>
+  <div class="wrap">
+    <div class="eyebrow">Alquiler de motocicletas · El Salvador</div>
+    <h1>Recorre El Salvador en una <em>moto de verdad</em></h1>
+    <p class="lead">BMW GS, Kawasaki, Yamaha y Honda doble propósito y alta cilindrada. Te la entregamos en tu hotel o en tu casa: volcanes, playas y montañas, todo a pocas horas.</p>
+    <div class="ctas">
+      <a href="#reservar" class="btn btn-primary">Reservar mi moto →</a>
+      <a href="#flota" class="btn btn-ghost">Ver la flota</a>
+    </div>
+    <p class="en">🇺🇸 Motorcycle rentals in El Salvador — BMW R 1250 GS Adventure, F 850 GS, G 310 GS & more. Delivered to your hotel.</p>
+
+    <div class="stats">
+      <div class="stat"><b>7</b><span>modelos disponibles</span></div>
+      <div class="stat"><b>4×</b><span>BMW R 1250 GS Adventure</span></div>
+      <div class="stat"><b>2 días</b><span>alquiler mínimo</span></div>
+      <div class="stat"><b>🏨</b><span>entrega en hotel o casa</span></div>
+    </div>
+  </div>
+</header>
+
+<!-- FLEET -->
+<section id="flota">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Nuestra flota</div>
+      <h2>Japonesas, alemanas y de aventura</h2>
+      <p>Motos de distintas cilindradas para ciudad, carretera y montaña. Elige la tuya y reserva en minutos.</p>
+    </div>
+    <div class="filters reveal" id="filters">
+      <button class="on" data-f="all">Todas</button>
+      <button data-f="small">Hasta 310 CC</button>
+      <button data-f="mid">700 – 1000 CC</button>
+      <button data-f="big">1250 CC</button>
+    </div>
+    <div class="fleet" id="fleet"></div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="precios" class="pricing">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Tarifas 2026</div>
+      <h2>Precios claros, sin sorpresas</h2>
+      <p>Tarifa por día, con alquiler mínimo de 2 días en todas las motos y reserva con al menos 2 semanas de anticipación. Al recibir la moto se firma un contrato de responsabilidad y daños y se entrega el depósito de garantía.</p>
+    </div>
+    <div class="tiers" id="tiers"></div>
+    <p class="note">🦺 Equipo de protección biker (casco, chaqueta y guantes) disponible por un valor adicional.</p>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section id="reservar">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Reserva en línea</div>
+      <h2>Calcula y reserva tu moto</h2>
+      <p>Elige la moto y los días: te mostramos el monto exacto a pagar en nuestro link seguro de N1co.</p>
+      <div class="advance"><span>🗓️</span><div><b>Reserva con mínimo 2 semanas de anticipación.</b> Así revisamos tu motocicleta, la lavamos y la preparamos para entregártela en perfectas condiciones.</div></div>
+    </div>
+    <div class="booking-grid">
+      <form class="calc reveal" id="calc" onsubmit="return false">
+        <label for="cMoto">Motocicleta</label>
+        <select id="cMoto"></select>
+        <div class="two">
+          <div>
+            <label for="cDate">Fecha de inicio (mín. 2 semanas)</label>
+            <input type="date" id="cDate">
+          </div>
+          <div>
+            <label for="cDays">Número de días (mínimo 2)</label>
+            <input type="number" id="cDays" min="2" max="30" value="2">
+          </div>
+        </div>
+        <label for="cName">Tu nombre</label>
+        <input type="text" id="cName" placeholder="Nombre y apellido">
+        <label class="check"><input type="checkbox" id="cGear"> Quiero equipo de protección (casco, chaqueta, guantes) — se cotiza aparte</label>
+
+        <div class="summary">
+          <div class="ln"><span id="sRate">—</span><span id="sSub">—</span></div>
+          <div class="ln tot"><span>Total a pagar en N1co</span><b id="sTot">$0</b></div>
+          <div class="ln"><span>Depósito de garantía (al recibir la moto y firmar contrato)</span><span id="sDep" style="color:var(--accent2);font-weight:700">—</span></div>
+        </div>
+
+        <div class="actions">
+          <a class="btn btn-primary" id="payBtn" href="https://pay.n1co.shop/pl/B7XPlHGjN" target="_blank" rel="noopener">💳 Pagar con N1co</a>
+          <a class="btn btn-wa" id="waBtn" href="https://wa.me/50375786508" target="_blank" rel="noopener">
+            <svg viewBox="0 0 32 32" fill="currentColor"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.5L3 29l6.7-1.7c1.9 1 4.1 1.6 6.3 1.6 7.2 0 13-5.8 13-13S23.2 3 16 3zm7.6 18.4c-.3.9-1.8 1.7-2.5 1.8-.6.1-1.4.1-2.3-.1-.5-.2-1.2-.4-2.1-.8-3.7-1.6-6.1-5.3-6.3-5.6-.2-.2-1.5-2-1.5-3.8s1-2.7 1.3-3.1c.3-.4.7-.5 1-.5h.7c.2 0 .5-.1.8.6.3.7 1 2.5 1.1 2.7.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.2.8-.1.2-.3 1-1.1 1.2-1.5.3-.4.5-.3.9-.2.4.1 2.3 1.1 2.7 1.3.4.2.7.3.8.5.1.1.1.9-.2 1.8z"/></svg>
+            Confirmar por WhatsApp
+          </a>
+        </div>
+      </form>
+
+      <div class="reveal">
+        <div class="steps">
+          <div class="step"><div class="n">1</div><div><h4>Elige tu moto y los días</h4><p>Usa la calculadora para ver el total exacto según la cilindrada. Reserva con al menos 2 semanas de anticipación.</p></div></div>
+          <div class="step"><div class="n">2</div><div><h4>Paga en N1co</h4><p>El link de pago es abierto: escribe el monto que te muestra la calculadora, llena tus datos y paga con tarjeta.</p></div></div>
+          <div class="step"><div class="n">3</div><div><h4>Confirma por WhatsApp</h4><p>Envíanos tu comprobante, la fecha y dónde te hospedas.</p></div></div>
+          <div class="step"><div class="n">4</div><div><h4>Recibe tu moto</h4><p>Te la llevamos a tu casa u hotel. Presentas tus documentos, firmas el contrato de responsabilidad y daños, dejas el depósito ¡y a rodar!</p></div></div>
+        </div>
+        <div class="n1co"><div class="ic">🔒</div><div><b>Pago seguro con N1co</b>, el sistema de cobros nacional de Super Selectos. Aceptamos tarjetas de crédito y débito.</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- REQUIREMENTS -->
+<section id="requisitos" class="pricing">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Antes de rodar</div>
+      <h2>Requisitos y condiciones</h2>
+    </div>
+    <div class="reqs">
+      <div class="req reveal">
+        <div class="ic">🪪</div>
+        <h3>Documentos</h3>
+        <ul>
+          <li>Licencia de manejar motocicleta vigente</li>
+          <li>DUI o pasaporte vigente</li>
+          <li>2 referencias personales con número fijo y celular</li>
+          <li>Firma del contrato de responsabilidad y daños sobre la motocicleta</li>
+        </ul>
+      </div>
+      <div class="req reveal">
+        <div class="ic">💵</div>
+        <h3>Depósito de garantía</h3>
+        <ul>
+          <li><b>$150</b> para motos de menor cilindrada (Dayun 150 y BMW G 310 GS)</li>
+          <li><b>$250</b> para motos grandes (700 CC en adelante)</li>
+          <li>Se entrega al recibir la moto y se devuelve al regresarla en buen estado</li>
+        </ul>
+      </div>
+      <div class="req reveal">
+        <div class="ic">📍</div>
+        <h3>Entrega</h3>
+        <ul>
+          <li>Entregamos en tu casa de habitación o en tu hotel</li>
+          <li>Debe ser un lugar donde podamos localizarte con claridad</li>
+          <li>Alquiler mínimo de 2 días en todas las motos</li>
+          <li>Toda reserva se hace con mínimo 2 semanas de anticipación</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCES -->
+<section id="experiencias" class="exp">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Historias sobre ruedas</div>
+      <h2>Experiencias únicas en El Salvador</h2>
+      <p>No solo alquilamos motos: creamos rutas, aventuras y recuerdos. Mira lo que se vive con nosotros.</p>
+    </div>
+    <div class="videos" id="videos"></div>
+  </div>
+</section>
+
+<!-- GROUPS -->
+<section id="grupos">
+  <div class="wrap groups">
+    <div class="img reveal"><img id="groupImg" alt="BMW R 1250 GS lista para ruta" loading="lazy"></div>
+    <div class="reveal">
+      <div class="eyebrow">Eventos y grupos</div>
+      <h2 style="font-size:clamp(2rem,4.5vw,3rem);margin:.3em 0">Guiamos grupos de motociclistas internacionales</h2>
+      <p style="color:var(--muted)">Hemos organizado eventos a nivel nacional alquilando motos y guiando grupos de motociclistas que vienen de otros países a descubrir El Salvador.</p>
+      <ul>
+        <li><b>→</b> Flota de varias motos iguales para todo el grupo, incluidas 4 BMW R 1250 GS Adventure</li>
+        <li><b>→</b> Rutas de playa, volcán y montaña diseñadas por expertos locales</li>
+        <li><b>→</b> Entrega coordinada en el hotel del grupo</li>
+        <li><b>→</b> Atención en español e inglés</li>
+      </ul>
+      <a class="btn btn-primary" href="https://wa.me/50375786508?text=Hola%2C%20quiero%20cotizar%20un%20tour%20en%20moto%20para%20un%20grupo" target="_blank" rel="noopener">Cotizar para mi grupo</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="pricing">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <div class="eyebrow">Preguntas frecuentes</div>
+      <h2>Lo que más nos preguntan</h2>
+    </div>
+    <div class="faq reveal">
+      <details><summary>¿Cuál es el tiempo mínimo de alquiler?</summary><p>El alquiler mínimo es de 2 días en todas nuestras motos. Puedes llevártela por los días que necesites a partir de ahí.</p></details>
+      <details><summary>¿Se firma algún contrato?</summary><p>Sí. Al recibir la moto firmas un contrato de responsabilidad y daños, que se aplica al alquiler de todas nuestras motocicletas, junto con la entrega del depósito de garantía.</p></details>
+      <details><summary>¿Con cuánta anticipación debo reservar?</summary><p>Toda reserva se hace con mínimo 2 semanas de anticipación a la fecha de alquiler. Ese tiempo nos permite revisar la motocicleta, lavarla y preparar la entrega para darte un buen servicio.</p></details>
+      <details><summary>¿Cuánto es el depósito?</summary><p>$150 para las motos de menor cilindrada (Dayun Panda 150 y BMW G 310 GS) y $250 para las motos grandes (Honda NC 700, Kawasaki Z1000, Yamaha MT-09, BMW F 850 GS y BMW R 1250 GS Adventure). Se entrega al recibir la moto.</p></details>
+      <details><summary>¿Cómo pago mi reserva?</summary><p>Con nuestro link de pago de N1co. Es un link abierto: escribe el monto según la moto y los días (la calculadora de esta página te lo da exacto), llena tus datos y paga con tarjeta. Luego confírmanos por WhatsApp.</p></details>
+      <details><summary>¿Dónde me entregan la moto?</summary><p>En tu casa de habitación o en el hotel donde te hospedas, siempre que podamos localizarte con claridad.</p></details>
+      <details><summary>¿Incluye casco y equipo?</summary><p>Tenemos casco, chaqueta y guantes de protección por un valor adicional. Márcalo en la calculadora y te lo cotizamos.</p></details>
+      <details><summary>¿Puedo ir con acompañante?</summary><p>Sí. Modelos como la BMW G 310 GS, la F 850 GS y la R 1250 GS Adventure están pensados para viajar cómodamente en pareja.</p></details>
+      <details><summary>Do you speak English? / ¿Atienden turistas extranjeros?</summary><p>Yes! We regularly guide international riders. Message us on WhatsApp and we'll help you plan your ride through El Salvador.</p></details>
+    </div>
+  </div>
+</section>
+
+<div class="cta-band">
+  <h2>¿Listo para la ruta?</h2>
+  <p>Escríbenos y te ayudamos a elegir la moto y la ruta ideal en El Salvador.</p>
+  <a class="btn btn-dark" href="https://wa.me/50375786508?text=Hola%2C%20quiero%20alquilar%20una%20moto" target="_blank" rel="noopener">WhatsApp (503) 7578-6508</a>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <a href="#inicio" class="logo">MOTOS<span style="color:var(--accent)">.</span>RENT</a>
+        <p style="margin-top:12px;max-width:420px">Alquiler de motocicletas de alta cilindrada para turismo en El Salvador. Un servicio de TurismoRealtor.</p>
+      </div>
+      <div>
+        <h4>Contacto</h4>
+        <ul>
+          <li><a href="https://wa.me/50375786508" target="_blank" rel="noopener">WhatsApp (503) 7578-6508</a></li>
+          <li>Torre Millenium, 4to Nivel, San Salvador</li>
+          <li><a href="https://linktr.ee/turismoelsalvador" target="_blank" rel="noopener">linktr.ee/turismoelsalvador</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Síguenos</h4>
+        <ul>
+          <li><a href="https://www.tiktok.com/@bernardocarcamo.shop" target="_blank" rel="noopener">TikTok @bernardocarcamo.shop</a></li>
+          <li><a href="#experiencias">Experiencias</a></li>
+          <li><a href="#reservar">Reservar</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="credits" id="credits"></div>
+    <p style="margin-top:14px;font-size:.8rem">© <span id="yr"></span> Motos.Rent · TURISMOREALTOR SAS DE CV · El Salvador</p>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/50375786508?text=Hola%2C%20quiero%20informaci%C3%B3n%20sobre%20el%20alquiler%20de%20motos" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 32 32"><path d="M16 3C8.8 3 3 8.8 3 16c0 2.3.6 4.5 1.7 6.5L3 29l6.7-1.7c1.9 1 4.1 1.6 6.3 1.6 7.2 0 13-5.8 13-13S23.2 3 16 3zm7.6 18.4c-.3.9-1.8 1.7-2.5 1.8-.6.1-1.4.1-2.3-.1-.5-.2-1.2-.4-2.1-.8-3.7-1.6-6.1-5.3-6.3-5.6-.2-.2-1.5-2-1.5-3.8s1-2.7 1.3-3.1c.3-.4.7-.5 1-.5h.7c.2 0 .5-.1.8.6.3.7 1 2.5 1.1 2.7.1.2.1.4 0 .6-.1.2-.2.4-.4.6l-.6.7c-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.2.8-.1.2-.3 1-1.1 1.2-1.5.3-.4.5-.3.9-.2.4.1 2.3 1.1 2.7 1.3.4.2.7.3.8.5.1.1.1.9-.2 1.8z"/></svg>
+</a>
+
+<script>
+/* ============ CONFIGURACIÓN (edita aquí precios, fotos y links) ============ */
+const N1CO = "https://pay.n1co.shop/pl/B7XPlHGjN";
+const WA = "50375786508";
+const IMG = n => "https://commons.wikimedia.org/wiki/Special:FilePath/" + encodeURIComponent(n) + "?width=1200";
+const FILE = n => "https://commons.wikimedia.org/wiki/File:" + encodeURIComponent(n.replace(/ /g,"_"));
+
+// Precios = tarifa anterior + 20%  ($65→$78 · $95→$114 · $125→$150 · $160→$192)
+const MOTOS = [
+  { id:"dayun", cat:"small", name:"Dayun Panda Aventura", cc:"150 CC", origin:"Experiencia camping todo incluido", price:78, dep:150, units:null,
+    img:"Dayun DY 150-6 2010 (15979638206).jpg", tag:"Camping",
+    desc:"Una experiencia turística económica: la Panda va equipada para acampar en playa y montaña, solo o en pareja. Los sitios de campamento corren por nuestra cuenta.",
+    chips:["Tienda para 3","2 sleeping bags","2 sillas plegables","2 hamacas","Luces LED","Cargador de emergencia","Kit para inflar llanta","Maletas"] },
+  { id:"g310", cat:"small", name:"BMW G 310 GS", cc:"310 CC", origin:"Alemana · doble propósito", price:114, dep:150, units:"2 unidades",
+    img:"BMW G310 GS 2023-08.jpg", tag:"Ágil",
+    desc:"Ágil para ciudad y montaña, lleva dos pasajeros perfectamente. Enfriada por agua, suspensión suave y cómoda, preparada para viajes largos. Versión Rally y versión normal.",
+    chips:["≈400 km por tanque","≈3 galones","2 pasajeros","Enfriada por agua"] },
+  { id:"nc700", cat:"mid", name:"Honda NC 700", cc:"700 CC", origin:"Japonesa · touring", price:150, dep:250, units:null,
+    img:"Honda nc700x sw side.jpg", tag:"Confiable",
+    desc:"La más cómoda y eficiente en combustible, con baúl incorporado al frente para el casco. Usada por la Policía Nacional Civil por su fidelidad, seguridad y desempeño.",
+    chips:["Baúl para casco","Bajo consumo","Muy cómoda"] },
+  { id:"z1000", cat:"mid", name:"Kawasaki Z1000", cc:"1,043 CC", origin:"Japonesa · naked", price:150, dep:250, units:null,
+    img:"2014 Kawasaki Z1000.JPG", tag:"Potencia",
+    desc:"La naked más potente de Kawasaki: motor de cuatro cilindros con respuesta soberbia a medio régimen y relación de cambio corta para una sensación deportiva espectacular.",
+    chips:["4 cilindros","Deportiva","Naked"] },
+  { id:"mt09", cat:"mid", name:"Yamaha MT-09", cc:"890 CC", origin:"Japonesa · hyper naked", price:150, dep:250, units:null,
+    img:"2024 Yamaha MT-09 Y-AMT.jpg", tag:"Dark side",
+    desc:"Aspecto agresivo con el ADN del “lado oscuro de Japón”. El motor tricilíndrico CP3 entrega una aceleración icónica con alto par.",
+    chips:["Motor CP3","3 cilindros","Alto par"] },
+  { id:"f850", cat:"mid", name:"BMW F 850 GS Exclusive", cc:"853 CC", origin:"Alemana · doble propósito", price:150, dep:250, units:null,
+    img:"BMW F 850 GS, Baujahr 2018 (2019-04-14).jpg", tag:"Viajes largos",
+    desc:"Doble propósito ideal para viajes largos en pareja con gran comodidad. Equipada con crash bars y maletas para ropa, equipo de camping y más.",
+    chips:["Crash bars","Maletas","2 pasajeros"] },
+  { id:"r1250", cat:"big", name:"BMW R 1250 GS Adventure", cc:"1,254 CC", origin:"Alemana · la reina enduro", price:192, dep:250, units:"4 unidades",
+    img:"BMW R 1250 GS and helmet.jpg", tag:"Premium", hot:true,
+    desc:"La reina de los viajes enduro. Motor bóxer con BMW ShiftCam, modos de conducción, asistencias electrónicas e iluminación avanzada. Nacida para los terrenos más difíciles.",
+    chips:["Bóxer ShiftCam","Modos de manejo","Puerto USB","2 pasajeros"] }
+];
+
+const VIDEOS = [
+  { id:"7332750006279130373", wide:true, k:"Experiencia 360°", t:"Vive la ruta en 360°",
+    s:"Gira la cámara y súbete con nosotros. Este video 360° te pone sobre la moto, rodeado de los paisajes de El Salvador: así se siente rentar una moto aquí, antes de ponerte el casco." },
+  { id:"7588651575816490296", k:"Experiencias únicas", t:"El Salvador como nunca lo has visto",
+    s:"Rutas que no aparecen en las guías: miradores, carreteras de montaña y pueblos que solo se descubren sobre dos ruedas." },
+  { id:"7587434083655879992", k:"Experiencias únicas", t:"Momentos que se quedan contigo",
+    s:"Cada salida es una historia distinta. Curvas, paisajes y la libertad de rodar a tu ritmo por un país pequeño lleno de contrastes." },
+  { id:"7520057987721940230", k:"Aventuras", t:"Aventuras diferentes",
+    s:"De la playa al volcán en un mismo día. Así es El Salvador: distancias cortas y aventuras enormes para quien viaja en moto." },
+  { id:"7342868624710946054", k:"Aventuras", t:"Rutas de aventura",
+    s:"Caminos de tierra, subidas y vistas que justifican cada kilómetro. Para eso existen las motos doble propósito." },
+  { id:"7292131478115257606", k:"Eventos", t:"Grupos internacionales",
+    s:"Eventos a nivel nacional alquilando motos y guiando a grupos de motociclistas internacionales que vinieron a conocer El Salvador." }
+];
+
+/* ============ RENDER ============ */
+const $ = s => document.querySelector(s);
+const money = n => "$" + n.toLocaleString("en-US");
+const catLabel = {small:"Menor cilindrada", mid:"700 – 1000 CC", big:"1250 CC"};
+
+$("#heroBg").style.backgroundImage = `url("${IMG("BMW R 1250 GS (1).jpg")}")`;
+$("#groupImg").src = IMG("BMW R 1250 GS (1).jpg");
+
+$("#fleet").innerHTML = MOTOS.map(m => `
+  <article class="moto reveal" data-cat="${m.cat}">
+    <div class="ph">
+      <img src="${IMG(m.img)}" alt="${m.name} en alquiler en El Salvador" loading="lazy">
+      <span class="tag ${m.hot?'hot':''}">${m.tag}</span>
+      ${m.units?`<span class="units">${m.units}</span>`:""}
+    </div>
+    <div class="body">
+      <h3>${m.name}</h3>
+      <div class="origin">${m.cc} · ${m.origin}</div>
+      <p class="desc">${m.desc}</p>
+      <div class="chips">${m.chips.map(c=>`<span>${c}</span>`).join("")}</div>
+      <div class="price-row">
+        <div class="price"><b>${money(m.price)}</b> <small>/ día</small><div class="dep">Depósito ${money(m.dep)}</div></div>
+        <a href="#reservar" class="btn btn-primary" data-pick="${m.id}">Reservar</a>
+      </div>
+    </div>
+  </article>`).join("");
+
+const tiers = [
+  { n:"Panda Aventura 150", p:78, d:150, items:["Equipo de camping completo","Sitios de campamento incluidos","Kit de emergencias biker"] },
+  { n:"310 CC", p:114, d:150, items:["BMW G 310 GS (2 unidades)","Ideal ciudad y montaña","≈400 km por tanque"] },
+  { n:"700 a 1000 CC", p:150, d:250, items:["Honda NC 700","Kawasaki Z1000 · Yamaha MT-09","BMW F 850 GS Exclusive"] },
+  { n:"1250 CC", p:192, d:250, feat:true, items:["BMW R 1250 GS Adventure","4 unidades disponibles","La mejor doble propósito"] }
+];
+$("#tiers").innerHTML = tiers.map(t => `
+  <div class="tier reveal ${t.feat?'feat':''}">
+    ${t.feat?'<span class="ribbon">MÁS PEDIDA</span>':''}
+    <h3>${t.n}</h3>
+    <div class="amt">${money(t.p)}<small> /día</small></div>
+    <ul>${t.items.map(i=>`<li>${i}</li>`).join("")}</ul>
+    <div class="depo">Depósito de garantía: <b>${money(t.d)}</b></div>
+  </div>`).join("");
+
+$("#videos").innerHTML = VIDEOS.map(v => `
+  <article class="vid reveal ${v.wide?'wide':''}">
+    <div class="frame">
+      <iframe src="https://www.tiktok.com/embed/v2/${v.id}" loading="lazy" allow="encrypted-media; fullscreen" allowfullscreen title="${v.t}"></iframe>
+    </div>
+    <div class="txt">
+      ${v.wide?'<span class="badge360">◉ 360°</span>':''}
+      <div class="eyebrow">${v.k}</div>
+      <h3>${v.t}</h3>
+      <p>${v.s}</p>
+      <p style="margin-top:12px"><a href="https://www.tiktok.com/@bernardocarcamo.shop/video/${v.id}" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600;text-decoration:none">Ver en TikTok →</a></p>
+    </div>
+  </article>`).join("");
+
+/* Calculator */
+const sel = $("#cMoto");
+sel.innerHTML = MOTOS.map(m => `<option value="${m.id}">${m.name} (${m.cc}) — ${money(m.price)}/día</option>`).join("");
+sel.value = "r1250";
+const minDate = new Date(); minDate.setDate(minDate.getDate()+14);
+const MIN_DATE = minDate.toISOString().slice(0,10);
+$("#cDate").value = MIN_DATE;
+$("#cDate").min = MIN_DATE;
+
+function calc(){
+  const m = MOTOS.find(x => x.id === sel.value);
+  let d = Math.max(2, Math.min(30, parseInt($("#cDays").value) || 2));
+  if (!$("#cDate").value || $("#cDate").value < MIN_DATE) $("#cDate").value = MIN_DATE;
+  const tot = m.price * d;
+  $("#sRate").textContent = `${money(m.price)} × ${d} días`;
+  $("#sSub").textContent = money(tot);
+  $("#sTot").textContent = money(tot);
+  $("#sDep").textContent = money(m.dep);
+  const name = $("#cName").value.trim();
+  const msg = `Hola, quiero reservar la ${m.name} (${m.cc}) por ${d} días desde el ${$("#cDate").value}. Total: ${money(tot)} + depósito ${money(m.dep)}.${$("#cGear").checked?' También necesito equipo de protección.':''}${name?' Mi nombre es '+name+'.':''}`;
+  $("#waBtn").href = `https://wa.me/${WA}?text=${encodeURIComponent(msg)}`;
+  $("#payBtn").innerHTML = `💳 Pagar ${money(tot)} con N1co`;
+}
+["#cMoto","#cDays","#cDate","#cName","#cGear"].forEach(s => $(s).addEventListener("input", calc));
+calc();
+
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-pick]");
+  if (b) { sel.value = b.dataset.pick; calc(); }
+});
+
+/* Filters */
+$("#filters").addEventListener("click", e => {
+  const b = e.target.closest("button"); if (!b) return;
+  document.querySelectorAll("#filters button").forEach(x => x.classList.toggle("on", x === b));
+  document.querySelectorAll(".moto").forEach(c => c.style.display = (b.dataset.f === "all" || c.dataset.cat === b.dataset.f) ? "" : "none");
+});
+
+/* Nav */
+const nav = $("#nav");
+addEventListener("scroll", () => nav.classList.toggle("scrolled", scrollY > 40));
+$("#burger").onclick = () => $("#links").classList.toggle("open");
+document.querySelectorAll("#links a").forEach(a => a.onclick = () => $("#links").classList.remove("open"));
+
+/* Reveal */
+const io = new IntersectionObserver(es => es.forEach(en => { if (en.isIntersecting) { en.target.classList.add("in"); io.unobserve(en.target); } }), {threshold:.12});
+document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+
+/* Credits (fotos referenciales con licencia libre) */
+const used = [...new Set([...MOTOS.map(m=>m.img),"BMW R 1250 GS (1).jpg"])];
+$("#credits").innerHTML = "Fotos referenciales de cada modelo vía Wikimedia Commons (licencias Creative Commons, autores varios): " +
+  used.map(n => `<a href="${FILE(n)}" target="_blank" rel="noopener">${n.replace(/\.(jpe?g|JPG)$/,'')}</a>`).join(" · ");
+$("#yr").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
